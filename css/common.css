@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.title {
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+}
+
+.title-img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  transition: transform 4s linear;
+}
+
+.title-img:hover,
+.title-img:focus {
+  transform: scale(2);
+
+}
+
+.container {
+  padding: 16px;
+  margin: 0 auto;
+}
+
+.container-img {
+  max-width: 600px;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 50% 20% / 10% 40%;
+}
+
+.navigation {
+  text-align: center;
+  list-style-type: none;
+}
+
+.a-link {
+  text-align: center;
+}
+
+.go-back {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #36385b;
+
+}
+
+.go-back:hover,
+.go-back:focus {
+  color: #8989e9;
+}
+
+/* 1 */
+.body-first {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tab-categories {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.item {
+  background-color: #e0e0f8;
+  border-radius: 8px;
+  padding: 16px;
+  width: 360px;
+  margin-top: 8px;
+  list-style-type: none;
+}
+
+.item ul {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 0;
+}
+
+.item h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.item li {
+  margin-top: 0;
+  display: flex;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.img-example {
+  margin: 0 auto;
+}
+
+/* 2 */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style-type: none;
+}
+
+.photo {
+  width: 350px;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+/* 3 */
+
+.text-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.title-third {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* 4 */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.btn-four {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 16px;
+  width: 86px;
+  height: 40px;
+  background-color: #4e75ff;
+  cursor: pointer;
+}
+
+.btn-four:hover {
+  background-color: #6c8cff;
+}
+
+.text-input:hover {
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+/* 5 */
+
+.widget {
+  text-align: center;
+}
+
+.text-widget {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  margin-top: 16px;
+  box-shadow: 7px 7px 14px #ffffff,
+    -7px -7px 14px #ffffff;
+
+}
+
+.shadow {
+  padding: 8px;
+
+  border-radius: 8px;
+  box-shadow: 7px 7px 14px #ffffff,
+    -7px -7px 14px #ffffff;
+}
